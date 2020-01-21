@@ -20,6 +20,6 @@ int main() {
 
 ## Sending Output to the Console 
 
-1. g++ {name of the file.cpp]
+1. g++ [name of the file.cpp]
 2. ./a.out
 
