@@ -424,6 +424,7 @@ vector<int> ParseLine(string line){
 ## Code : 
 Update ReadBoardFile to use ParseLine and return the board as a vector<vector<int>>. You can read the TODO comments in the code for step by step instructions.
 Update the main function to pass the results of ReadBoardFile to the PrintBoard function.
+
 ```
 #include <fstream>
 #include <iostream>
@@ -483,11 +484,13 @@ int main() {
    PrintBoard(board);
 }
 
+```
 
 ## Code:
 Write a function CellString which accepts aState as input and returns the following string:
 "⛰️ " if the input equals a kObstacle
 "0 " otherwise.
+
 ```
 #include <fstream>
 #include <iostream>
@@ -552,9 +555,12 @@ int main() {
   auto board = ReadBoardFile("1.board");
   PrintBoard(board);
 }
+
 ```
+
 ## Code: 
 Follow the TODO comments in the main file below, and update the program to store a board of State variables. When you are done, the board should print as in the image above. Note that you will need to call CellString on each object in the board before printing: CellString(board[i][j]).
+
 ```
 #include <fstream>
 #include <iostream>
