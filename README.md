@@ -483,8 +483,7 @@ int main() {
    PrintBoard(board);
 }
 
-```
-```
+
 ## Code:
 Write a function CellString which accepts aState as input and returns the following string:
 "⛰️ " if the input equals a kObstacle
