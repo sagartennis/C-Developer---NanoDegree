@@ -2,7 +2,7 @@
 Learning to be a C++ Developer from Udacity Nano-degree
 
 
-## First Code is C++ 
+## First Code in C++ 
 
 ```
 # include <iostream>
@@ -17,4 +17,9 @@ int main() {
 2. The **iostream** containts declerations of input/output objects.
 3. The **using std::** containts all the standard librabries used in  C++ 
 4. The **cout** is the command given to output on the user screen. 
+
+## Sending Output to the Console 
+
+1. g++ <name of the file.cpp> 
+2. ./a.out
 
