@@ -14,7 +14,7 @@ int main() {
 ```
 
 1. The **# include** is a preprocessed command which is executed before the code is complied. 
-2. The **<iostrean.** containts declerations of input/output objects.
+2. The **<iostream>.** containts declerations of input/output objects.
 3. The **using std::** containts all the standard librabries used in  C++ 
 4. The **cout** is the command given to output on the user screen. 
 
